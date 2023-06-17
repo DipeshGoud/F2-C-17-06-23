@@ -1,0 +1,86 @@
+* {
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+
+main {
+    margin: 40px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.input-con {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    margin: 10px 0;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input {
+    height: 25px;
+    font-size: medium;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.form-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+#employeeList>div {
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+
+#employeeList div .display {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid white;
+    margin: 10px 20px;
+    margin-left: 0;
+    border-radius: 10px;
+}
+
+#employeeList div p {
+    margin: 5px 10px;
+}
+
+.deleteButton{
+    border-radius: 20px;
+}
+
+.pre-list{
+    color: gray;
+}

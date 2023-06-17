@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adding Employees</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>New Employees</h1>
+
+        <form id="employeeForm">
+            <div class="form-con">
+                <div class="input-con">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Name">
+                </div>
+                <div class="input-con">
+                    <label for="profession">Profession</label>
+                    <input type="text" id="profession" placeholder="Enter Profession">
+                </div>
+                <div class="input-con">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" placeholder="Enter Age">
+                </div>
+            </div>
+            <button type="submit">Add User</button>
+        </form>
+
+        <div id="messages"></div>
+
+        <h2>Added Employees</h2>
+        <div id="employeeList">
+            <p class="pre-list">You have 0 Employees</p>
+        </div>
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
